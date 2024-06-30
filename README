@@ -1,0 +1,5 @@
+## C++の実行コマンド
+g++ -std=c++11 ex10.cpp -o ex10
+
+# mpi を用いたときのコンパイルファイルの実行方法
+mpirun -np 4 ./mpi_hello_world     
